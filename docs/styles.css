@@ -1,0 +1,60 @@
+body {
+      background-color: #0b0a0b; /* Soft black */
+      color: white;
+      font-family: ui-monospace, Cascadia Code, Source Code Pro, monospace;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 4em;
+      font-weight: bold;
+      color: white;
+    }
+
+    .title {
+      font-size: 2em;
+      margin-top: 10px;
+      color: white;
+    }
+
+    .text {
+      font-size: 1.2em;
+      margin: 20px 0;
+      color: #ccc; /* Light grey */
+    }
+
+    .buttons {
+      margin: 20px 0;
+    }
+
+    .buttons a {
+      display: inline-block;
+      background-color: #252325; /* Grey */
+      color: white;
+      padding: 10px 20px;
+      margin: 5px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1em;
+      transition: background-color 0.3s, transform 0.15s;
+    }
+
+    .buttons a:hover {
+      background-color: #353235; /* Lighter grey for hover */
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.8em;
+      color: #ccc; /* Light grey */
+    }
+
+    footer a {
+      color: #ccc; /* Light grey for email link */
+    }
